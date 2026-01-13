@@ -1,5 +1,42 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@font-face {
+  font-family: 'Eras Bold ITC';
+  src:
+    url('https://db.onlinewebfonts.com/t/401b3afcdd14cf76b92956ecc7f7d8e6.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/401b3afcdd14cf76b92956ecc7f7d8e6.woff')
+      format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KbizHanmaumGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff')
+    format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OneStoreMobileGothicTitleFont';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff')
+    format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+.font-one {
+  font-family: 'OneStoreMobileGothicTitleFont', system-ui, sans-serif;
+}
+.font-eras {
+  font-family: 'Eras Bold ITC', system-ui, sans-serif;
+}
+.font-kbiz {
+  font-family: 'KbizHanmaumGothic', system-ui, sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
